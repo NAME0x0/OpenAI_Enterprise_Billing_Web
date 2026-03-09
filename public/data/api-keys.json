@@ -1,0 +1,165 @@
+[
+  {
+    "id": "key-001",
+    "name": "eng-prod-inference",
+    "key": "sk-...a4f812",
+    "departmentId": "dept-eng",
+    "createdAt": "2025-08-06T09:00:00Z",
+    "lastUsed": "2026-02-12T14:38:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-002",
+    "name": "eng-ci-pipeline",
+    "key": "sk-...7c2e9b",
+    "departmentId": "dept-eng",
+    "createdAt": "2025-09-14T08:20:00Z",
+    "lastUsed": "2026-02-12T11:04:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write"
+    ]
+  },
+  {
+    "id": "key-003",
+    "name": "research-evals-batch",
+    "key": "sk-...d8b31f",
+    "departmentId": "dept-res",
+    "createdAt": "2025-08-21T12:45:00Z",
+    "lastUsed": "2026-02-14T19:22:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write",
+      "models:read"
+    ]
+  },
+  {
+    "id": "key-004",
+    "name": "research-rag-indexer",
+    "key": "sk-...3e6c40",
+    "departmentId": "dept-res",
+    "createdAt": "2025-09-02T07:30:00Z",
+    "lastUsed": "2026-02-13T16:55:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:write",
+      "embeddings:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-005",
+    "name": "mkt-content-api",
+    "key": "sk-...f1a27c",
+    "departmentId": "dept-mkt",
+    "createdAt": "2025-08-30T10:10:00Z",
+    "lastUsed": "2026-02-10T15:48:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-006",
+    "name": "sales-enrichment",
+    "key": "sk-...b9d53e",
+    "departmentId": "dept-sales",
+    "createdAt": "2025-09-05T15:00:00Z",
+    "lastUsed": "2026-02-11T09:30:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write"
+    ]
+  },
+  {
+    "id": "key-007",
+    "name": "sales-deal-intel",
+    "key": "sk-...0c84da",
+    "departmentId": "dept-sales",
+    "createdAt": "2025-09-07T11:15:00Z",
+    "lastUsed": "2026-02-11T17:12:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-008",
+    "name": "fin-analytics",
+    "key": "sk-...e2f691",
+    "departmentId": "dept-fin",
+    "createdAt": "2025-10-01T09:00:00Z",
+    "lastUsed": "2026-02-13T08:44:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-009",
+    "name": "fin-close-automation",
+    "key": "sk-...5a7b2c",
+    "departmentId": "dept-fin",
+    "createdAt": "2025-10-20T18:30:00Z",
+    "lastUsed": "2026-02-06T20:18:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write"
+    ]
+  },
+  {
+    "id": "key-010",
+    "name": "ops-routing-prod",
+    "key": "sk-...c3d08e",
+    "departmentId": "dept-ops",
+    "createdAt": "2025-09-04T08:00:00Z",
+    "lastUsed": "2026-02-17T22:06:00Z",
+    "status": "active",
+    "permissions": [
+      "inference:read",
+      "inference:write",
+      "embeddings:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-011",
+    "name": "ops-embedding-svc",
+    "key": "sk-...91bb4f",
+    "departmentId": "dept-ops",
+    "createdAt": "2025-09-10T13:20:00Z",
+    "lastUsed": "2026-02-17T21:50:00Z",
+    "status": "active",
+    "permissions": [
+      "embeddings:write",
+      "usage:read"
+    ]
+  },
+  {
+    "id": "key-012",
+    "name": "legacy-eng-v1",
+    "key": "sk-...48ac17",
+    "departmentId": "dept-eng",
+    "createdAt": "2025-08-04T07:00:00Z",
+    "lastUsed": "2025-12-30T04:22:00Z",
+    "status": "revoked",
+    "permissions": [
+      "inference:read"
+    ]
+  }
+]

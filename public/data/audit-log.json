@@ -1,0 +1,182 @@
+[
+  {
+    "id": "audit-001",
+    "action": "login_success",
+    "actor": "admin@company.com",
+    "target": "console",
+    "timestamp": "2026-02-14T08:03:00Z",
+    "details": "SSO login via Okta SAML (MFA verified). Session initiated from 10.0.1.42.",
+    "category": "access"
+  },
+  {
+    "id": "audit-002",
+    "action": "api_key_created",
+    "actor": "marcus.johnson",
+    "target": "key-007",
+    "timestamp": "2026-02-11T11:22:00Z",
+    "details": "Created key sales-deal-intel for dept-sales. Permissions: inference:read, inference:write, usage:read.",
+    "category": "security"
+  },
+  {
+    "id": "audit-003",
+    "action": "api_key_rotated",
+    "actor": "admin@company.com",
+    "target": "key-001",
+    "timestamp": "2026-02-09T02:05:00Z",
+    "details": "Emergency rotation of eng-prod-inference following unauthorized IP alert (alert-004). Previous key invalidated immediately.",
+    "category": "security"
+  },
+  {
+    "id": "audit-004",
+    "action": "alert_acknowledged",
+    "actor": "marcus.johnson",
+    "target": "alert-005",
+    "timestamp": "2026-02-11T09:48:00Z",
+    "details": "Acknowledged Ops token spike alert. Confirmed as scheduled re-indexing job. No further action required.",
+    "category": "operations"
+  },
+  {
+    "id": "audit-005",
+    "action": "department_budget_adjusted",
+    "actor": "admin@company.com",
+    "target": "dept-mkt",
+    "timestamp": "2026-02-01T08:28:00Z",
+    "details": "Budget for Marketing increased from $32,000 to $38,000 for Q1 2026. Approved via FINOPS-2841.",
+    "category": "billing"
+  },
+  {
+    "id": "audit-006",
+    "action": "model_access_policy_changed",
+    "actor": "admin@company.com",
+    "target": "gpt-5-4",
+    "timestamp": "2026-01-28T10:44:00Z",
+    "details": "GPT-5.4 access restricted to org-admin and dept-lead roles only. General user access pending cost review. Policy effective immediately.",
+    "category": "config"
+  },
+  {
+    "id": "audit-007",
+    "action": "model_access_policy_changed",
+    "actor": "admin@company.com",
+    "target": "gpt-5-4",
+    "timestamp": "2026-02-04T15:30:00Z",
+    "details": "GPT-5.4 access expanded to Research and Engineering dept-leads following Q1 budget approval. Marketing and Sales remain restricted.",
+    "category": "config"
+  },
+  {
+    "id": "audit-008",
+    "action": "role_changed",
+    "actor": "admin@company.com",
+    "target": "marcus.johnson",
+    "timestamp": "2026-01-28T10:42:00Z",
+    "details": "Role changed from dept-lead (Engineering) to org-admin. Triggered by engineering team lead promotion effective 2026-02-01.",
+    "category": "access"
+  },
+  {
+    "id": "audit-009",
+    "action": "api_key_revoked",
+    "actor": "admin@company.com",
+    "target": "key-012",
+    "timestamp": "2026-01-15T14:10:00Z",
+    "details": "Revoked legacy-eng-v1. Key was inactive since 2025-12-30 and predates the current key naming policy. Cleanup as part of Q1 security audit.",
+    "category": "security"
+  },
+  {
+    "id": "audit-010",
+    "action": "settings_updated",
+    "actor": "admin@company.com",
+    "target": "settings",
+    "timestamp": "2026-01-30T11:15:00Z",
+    "details": "quotaThreshold updated from 80 to 85. alertEmail updated to billing-alerts@company.com. Change approved in FINOPS-2809.",
+    "category": "config"
+  },
+  {
+    "id": "audit-011",
+    "action": "project_status_changed",
+    "actor": "sarah.kim",
+    "target": "proj-eval-suite",
+    "timestamp": "2026-01-22T13:40:00Z",
+    "details": "Model Eval Suite status changed from paused to active. Budget restored after Q1 research allocation approved by dept head.",
+    "category": "operations"
+  },
+  {
+    "id": "audit-012",
+    "action": "export_report",
+    "actor": "marcus.johnson",
+    "target": "usage-report-jan-2026",
+    "timestamp": "2026-02-03T10:20:00Z",
+    "details": "Exported January 2026 usage report as CSV (all departments). File size: 1.2 MB. Downloaded from 10.0.2.88.",
+    "category": "billing"
+  },
+  {
+    "id": "audit-013",
+    "action": "login_success",
+    "actor": "sarah.kim",
+    "target": "console",
+    "timestamp": "2026-02-03T08:55:00Z",
+    "details": "SSO login via Okta SAML (MFA verified). Session from 10.0.4.11.",
+    "category": "access"
+  },
+  {
+    "id": "audit-014",
+    "action": "quota_alert_generated",
+    "actor": "system",
+    "target": "dept-res",
+    "timestamp": "2026-02-13T14:03:00Z",
+    "details": "Automated alert generated: Research (RES-002) crossed the 88% budget utilization threshold. Alert-002 created.",
+    "category": "billing"
+  },
+  {
+    "id": "audit-015",
+    "action": "invoice_finalized",
+    "actor": "system",
+    "target": "invoice-INV-2026-01",
+    "timestamp": "2026-02-01T00:04:00Z",
+    "details": "January 2026 invoice finalized. Total: $147,842.60. Line items across 6 departments and 10 models. PDF generated and emailed to billing-alerts@company.com.",
+    "category": "billing"
+  },
+  {
+    "id": "audit-016",
+    "action": "api_key_created",
+    "actor": "elena.rodriguez",
+    "target": "key-004",
+    "timestamp": "2025-09-02T07:32:00Z",
+    "details": "Created research-rag-indexer key for RAG Pipeline v2 project. Scoped to embeddings:write only per least-privilege policy.",
+    "category": "security"
+  },
+  {
+    "id": "audit-017",
+    "action": "settings_updated",
+    "actor": "marcus.johnson",
+    "target": "settings",
+    "timestamp": "2026-01-14T16:08:00Z",
+    "details": "alertEmail changed from it-ops@company.com to billing-alerts@company.com to align with FinOps team routing.",
+    "category": "config"
+  },
+  {
+    "id": "audit-018",
+    "action": "login_success",
+    "actor": "admin@company.com",
+    "target": "console",
+    "timestamp": "2026-01-07T07:50:00Z",
+    "details": "SSO login via Okta SAML (MFA verified). First session of January. Session from 10.0.1.42.",
+    "category": "access"
+  },
+  {
+    "id": "audit-019",
+    "action": "project_status_changed",
+    "actor": "admin@company.com",
+    "target": "proj-ops-forecast",
+    "timestamp": "2026-01-10T09:22:00Z",
+    "details": "Ops Forecasting project budget increased from $12,000 to $15,000 to accommodate expanded LLM-based scenario modeling in Q1.",
+    "category": "operations"
+  },
+  {
+    "id": "audit-020",
+    "action": "alert_acknowledged",
+    "actor": "admin@company.com",
+    "target": "alert-007",
+    "timestamp": "2026-02-01T08:15:00Z",
+    "details": "Acknowledged January 2026 invoice ready alert. Forwarded to CFO distribution list for approval workflow.",
+    "category": "billing"
+  }
+]

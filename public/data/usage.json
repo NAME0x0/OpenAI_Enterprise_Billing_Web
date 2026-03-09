@@ -1,0 +1,982 @@
+[
+  {
+    "id": "usage-001",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 28400000,
+    "cost": 3740.60,
+    "date": "2025-09-04",
+    "project": "Code Review Agent",
+    "user": "alex.chen"
+  },
+  {
+    "id": "usage-002",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-mini",
+    "tokens": 142000000,
+    "cost": 2684.20,
+    "date": "2025-09-11",
+    "project": "CI/CD Copilot",
+    "user": "priya.sharma"
+  },
+  {
+    "id": "usage-003",
+    "departmentId": "dept-eng",
+    "model": "o4-mini",
+    "tokens": 9200000,
+    "cost": 924.20,
+    "date": "2025-09-18",
+    "project": "Code Review Agent",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-004",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 31600000,
+    "cost": 4164.10,
+    "date": "2025-10-02",
+    "project": "CI/CD Copilot",
+    "user": "alex.chen"
+  },
+  {
+    "id": "usage-005",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-mini",
+    "tokens": 168000000,
+    "cost": 3175.50,
+    "date": "2025-10-09",
+    "project": "Incident Response Bot",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-006",
+    "departmentId": "dept-eng",
+    "model": "o4-mini",
+    "tokens": 11400000,
+    "cost": 1145.60,
+    "date": "2025-10-16",
+    "project": "Code Review Agent",
+    "user": "priya.sharma"
+  },
+  {
+    "id": "usage-007",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 35200000,
+    "cost": 4638.40,
+    "date": "2025-10-30",
+    "project": "Code Review Agent",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-008",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-nano",
+    "tokens": 186000000,
+    "cost": 1395.00,
+    "date": "2025-11-06",
+    "project": "CI/CD Copilot",
+    "user": "alex.chen"
+  },
+  {
+    "id": "usage-009",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 22600000,
+    "cost": 2978.50,
+    "date": "2025-11-13",
+    "project": "Incident Response Bot",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-010",
+    "departmentId": "dept-eng",
+    "model": "o4-mini",
+    "tokens": 7800000,
+    "cost": 783.80,
+    "date": "2025-11-20",
+    "project": "Code Review Agent",
+    "user": "priya.sharma"
+  },
+  {
+    "id": "usage-011",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-mini",
+    "tokens": 195000000,
+    "cost": 3685.60,
+    "date": "2025-12-04",
+    "project": "CI/CD Copilot",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-012",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 38800000,
+    "cost": 5112.70,
+    "date": "2025-12-11",
+    "project": "Code Review Agent",
+    "user": "alex.chen"
+  },
+  {
+    "id": "usage-013",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-nano",
+    "tokens": 210000000,
+    "cost": 1575.00,
+    "date": "2025-12-18",
+    "project": "CI/CD Copilot",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-014",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 19400000,
+    "cost": 2556.90,
+    "date": "2026-01-08",
+    "project": "Incident Response Bot",
+    "user": "priya.sharma"
+  },
+  {
+    "id": "usage-015",
+    "departmentId": "dept-eng",
+    "model": "o4-mini",
+    "tokens": 13600000,
+    "cost": 1366.40,
+    "date": "2026-01-15",
+    "project": "Code Review Agent",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-016",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-mini",
+    "tokens": 221000000,
+    "cost": 4177.30,
+    "date": "2026-01-22",
+    "project": "CI/CD Copilot",
+    "user": "alex.chen"
+  },
+  {
+    "id": "usage-017",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.4",
+    "tokens": 4200000,
+    "cost": 1575.00,
+    "date": "2026-02-05",
+    "project": "Code Review Agent",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-018",
+    "departmentId": "dept-eng",
+    "model": "GPT-5.2",
+    "tokens": 24800000,
+    "cost": 3268.60,
+    "date": "2026-02-12",
+    "project": "Incident Response Bot",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-019",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 32400000,
+    "cost": 4269.60,
+    "date": "2025-09-06",
+    "project": "RAG Pipeline v2",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-020",
+    "departmentId": "dept-res",
+    "model": "o4-mini",
+    "tokens": 14200000,
+    "cost": 1426.60,
+    "date": "2025-09-13",
+    "project": "Model Eval Suite",
+    "user": "david.okafor"
+  },
+  {
+    "id": "usage-021",
+    "departmentId": "dept-res",
+    "model": "text-embedding-3-large",
+    "tokens": 280000000,
+    "cost": 1820.00,
+    "date": "2025-09-20",
+    "project": "RAG Pipeline v2",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-022",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 27600000,
+    "cost": 3637.80,
+    "date": "2025-10-04",
+    "project": "Model Eval Suite",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-023",
+    "departmentId": "dept-res",
+    "model": "o4-mini",
+    "tokens": 12400000,
+    "cost": 1246.20,
+    "date": "2025-10-11",
+    "project": "RAG Pipeline v2",
+    "user": "david.okafor"
+  },
+  {
+    "id": "usage-024",
+    "departmentId": "dept-res",
+    "model": "GPT-5-mini",
+    "tokens": 108000000,
+    "cost": 2040.40,
+    "date": "2025-10-18",
+    "project": "Synthetic Data Lab",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-025",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 36800000,
+    "cost": 4849.20,
+    "date": "2025-11-01",
+    "project": "RAG Pipeline v2",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-026",
+    "departmentId": "dept-res",
+    "model": "o3",
+    "tokens": 5600000,
+    "cost": 1280.00,
+    "date": "2025-11-08",
+    "project": "Model Eval Suite",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-027",
+    "departmentId": "dept-res",
+    "model": "text-embedding-3-large",
+    "tokens": 320000000,
+    "cost": 2080.00,
+    "date": "2025-11-15",
+    "project": "RAG Pipeline v2",
+    "user": "david.okafor"
+  },
+  {
+    "id": "usage-028",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 21800000,
+    "cost": 2872.30,
+    "date": "2025-11-22",
+    "project": "Synthetic Data Lab",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-029",
+    "departmentId": "dept-res",
+    "model": "GPT-5-mini",
+    "tokens": 134000000,
+    "cost": 2531.40,
+    "date": "2025-12-06",
+    "project": "Synthetic Data Lab",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-030",
+    "departmentId": "dept-res",
+    "model": "o4-mini",
+    "tokens": 10600000,
+    "cost": 1065.40,
+    "date": "2025-12-13",
+    "project": "Model Eval Suite",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-031",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 40200000,
+    "cost": 5296.40,
+    "date": "2025-12-20",
+    "project": "RAG Pipeline v2",
+    "user": "david.okafor"
+  },
+  {
+    "id": "usage-032",
+    "departmentId": "dept-res",
+    "model": "o4-mini",
+    "tokens": 8800000,
+    "cost": 884.20,
+    "date": "2026-01-10",
+    "project": "Model Eval Suite",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-033",
+    "departmentId": "dept-res",
+    "model": "GPT-5.4",
+    "tokens": 3600000,
+    "cost": 1350.00,
+    "date": "2026-01-17",
+    "project": "Model Eval Suite",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-034",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 17200000,
+    "cost": 2266.50,
+    "date": "2026-01-24",
+    "project": "RAG Pipeline v2",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-035",
+    "departmentId": "dept-res",
+    "model": "GPT-5.4",
+    "tokens": 5400000,
+    "cost": 2025.00,
+    "date": "2026-02-07",
+    "project": "Model Eval Suite",
+    "user": "david.okafor"
+  },
+  {
+    "id": "usage-036",
+    "departmentId": "dept-res",
+    "model": "GPT-5.2",
+    "tokens": 23400000,
+    "cost": 3082.50,
+    "date": "2026-02-14",
+    "project": "Synthetic Data Lab",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-037",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 182000000,
+    "cost": 3438.00,
+    "date": "2025-09-08",
+    "project": "Campaign Optimizer",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-038",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5.2",
+    "tokens": 14600000,
+    "cost": 1924.70,
+    "date": "2025-09-15",
+    "project": "Content Generator",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-039",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 207000000,
+    "cost": 3912.30,
+    "date": "2025-10-06",
+    "project": "Campaign Optimizer",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-040",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 164000000,
+    "cost": 3098.00,
+    "date": "2025-10-13",
+    "project": "Content Generator",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-041",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5.2",
+    "tokens": 10800000,
+    "cost": 1423.40,
+    "date": "2025-10-27",
+    "project": "Campaign Optimizer",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-042",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 228000000,
+    "cost": 4308.30,
+    "date": "2025-11-10",
+    "project": "Campaign Optimizer",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-043",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 193000000,
+    "cost": 3646.50,
+    "date": "2025-12-01",
+    "project": "Content Generator",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-044",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5.2",
+    "tokens": 8200000,
+    "cost": 1080.70,
+    "date": "2025-12-08",
+    "project": "Content Generator",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-045",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 252000000,
+    "cost": 4761.00,
+    "date": "2025-12-15",
+    "project": "Campaign Optimizer",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-046",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5.2",
+    "tokens": 12400000,
+    "cost": 1634.30,
+    "date": "2026-01-05",
+    "project": "Campaign Optimizer",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-047",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 178000000,
+    "cost": 3363.30,
+    "date": "2026-01-19",
+    "project": "Content Generator",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-048",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5.2",
+    "tokens": 9600000,
+    "cost": 1265.10,
+    "date": "2026-02-03",
+    "project": "Campaign Optimizer",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-049",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-mini",
+    "tokens": 144000000,
+    "cost": 2720.00,
+    "date": "2026-02-10",
+    "project": "Content Generator",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-050",
+    "departmentId": "dept-sales",
+    "model": "GPT-5-mini",
+    "tokens": 198000000,
+    "cost": 3742.10,
+    "date": "2025-09-10",
+    "project": "Prospect Enrichment",
+    "user": "james.wilson"
+  },
+  {
+    "id": "usage-051",
+    "departmentId": "dept-sales",
+    "model": "GPT-4.1-mini",
+    "tokens": 224000000,
+    "cost": 4115.20,
+    "date": "2025-09-17",
+    "project": "Deal Intelligence",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-052",
+    "departmentId": "dept-sales",
+    "model": "GPT-5-mini",
+    "tokens": 176000000,
+    "cost": 3326.00,
+    "date": "2025-10-08",
+    "project": "Prospect Enrichment",
+    "user": "james.wilson"
+  },
+  {
+    "id": "usage-053",
+    "departmentId": "dept-sales",
+    "model": "GPT-4.1-mini",
+    "tokens": 248000000,
+    "cost": 4556.80,
+    "date": "2025-10-15",
+    "project": "Deal Intelligence",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-054",
+    "departmentId": "dept-sales",
+    "model": "GPT-5-mini",
+    "tokens": 215000000,
+    "cost": 4062.90,
+    "date": "2025-11-05",
+    "project": "Deal Intelligence",
+    "user": "james.wilson"
+  },
+  {
+    "id": "usage-055",
+    "departmentId": "dept-sales",
+    "model": "GPT-4.1-mini",
+    "tokens": 192000000,
+    "cost": 3528.00,
+    "date": "2025-11-12",
+    "project": "Prospect Enrichment",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-056",
+    "departmentId": "dept-sales",
+    "model": "GPT-5-mini",
+    "tokens": 162000000,
+    "cost": 3061.80,
+    "date": "2025-12-03",
+    "project": "Prospect Enrichment",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-057",
+    "departmentId": "dept-sales",
+    "model": "GPT-4.1-mini",
+    "tokens": 271000000,
+    "cost": 4977.50,
+    "date": "2025-12-10",
+    "project": "Deal Intelligence",
+    "user": "james.wilson"
+  },
+  {
+    "id": "usage-058",
+    "departmentId": "dept-sales",
+    "model": "GPT-5-mini",
+    "tokens": 138000000,
+    "cost": 2607.40,
+    "date": "2026-01-07",
+    "project": "Deal Intelligence",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-059",
+    "departmentId": "dept-sales",
+    "model": "GPT-4.1-mini",
+    "tokens": 208000000,
+    "cost": 3820.80,
+    "date": "2026-01-21",
+    "project": "Prospect Enrichment",
+    "user": "tom.brennan"
+  },
+  {
+    "id": "usage-060",
+    "departmentId": "dept-sales",
+    "model": "GPT-5-mini",
+    "tokens": 184000000,
+    "cost": 3477.70,
+    "date": "2026-02-04",
+    "project": "Deal Intelligence",
+    "user": "james.wilson"
+  },
+  {
+    "id": "usage-061",
+    "departmentId": "dept-sales",
+    "model": "GPT-4.1-mini",
+    "tokens": 166000000,
+    "cost": 3049.60,
+    "date": "2026-02-11",
+    "project": "Prospect Enrichment",
+    "user": "sarah.kim"
+  },
+  {
+    "id": "usage-062",
+    "departmentId": "dept-fin",
+    "model": "o4-mini",
+    "tokens": 8400000,
+    "cost": 844.20,
+    "date": "2025-09-12",
+    "project": "Quarterly Close QA",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-063",
+    "departmentId": "dept-fin",
+    "model": "GPT-5-nano",
+    "tokens": 172000000,
+    "cost": 1290.00,
+    "date": "2025-09-19",
+    "project": "Spend Analytics",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-064",
+    "departmentId": "dept-fin",
+    "model": "o4-mini",
+    "tokens": 11200000,
+    "cost": 1125.60,
+    "date": "2025-10-10",
+    "project": "Quarterly Close QA",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-065",
+    "departmentId": "dept-fin",
+    "model": "GPT-5-nano",
+    "tokens": 198000000,
+    "cost": 1485.00,
+    "date": "2025-10-17",
+    "project": "Spend Analytics",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-066",
+    "departmentId": "dept-fin",
+    "model": "GPT-5.2",
+    "tokens": 7800000,
+    "cost": 1027.80,
+    "date": "2025-10-31",
+    "project": "Quarterly Close QA",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-067",
+    "departmentId": "dept-fin",
+    "model": "o4-mini",
+    "tokens": 9600000,
+    "cost": 964.80,
+    "date": "2025-11-07",
+    "project": "Quarterly Close QA",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-068",
+    "departmentId": "dept-fin",
+    "model": "GPT-5-nano",
+    "tokens": 224000000,
+    "cost": 1680.00,
+    "date": "2025-11-14",
+    "project": "Spend Analytics",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-069",
+    "departmentId": "dept-fin",
+    "model": "GPT-5.2",
+    "tokens": 6400000,
+    "cost": 843.20,
+    "date": "2025-12-05",
+    "project": "Spend Analytics",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-070",
+    "departmentId": "dept-fin",
+    "model": "o4-mini",
+    "tokens": 13400000,
+    "cost": 1346.60,
+    "date": "2025-12-12",
+    "project": "Quarterly Close QA",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-071",
+    "departmentId": "dept-fin",
+    "model": "GPT-5-nano",
+    "tokens": 186000000,
+    "cost": 1395.00,
+    "date": "2025-12-19",
+    "project": "Spend Analytics",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-072",
+    "departmentId": "dept-fin",
+    "model": "o4-mini",
+    "tokens": 10800000,
+    "cost": 1085.40,
+    "date": "2026-01-09",
+    "project": "Quarterly Close QA",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-073",
+    "departmentId": "dept-fin",
+    "model": "GPT-5.2",
+    "tokens": 9200000,
+    "cost": 1212.10,
+    "date": "2026-01-23",
+    "project": "Spend Analytics",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-074",
+    "departmentId": "dept-fin",
+    "model": "o4-mini",
+    "tokens": 7600000,
+    "cost": 764.00,
+    "date": "2026-02-06",
+    "project": "Quarterly Close QA",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-075",
+    "departmentId": "dept-fin",
+    "model": "GPT-5-nano",
+    "tokens": 208000000,
+    "cost": 1560.00,
+    "date": "2026-02-13",
+    "project": "Spend Analytics",
+    "user": "aisha.patel"
+  },
+  {
+    "id": "usage-076",
+    "departmentId": "dept-ops",
+    "model": "GPT-5-mini",
+    "tokens": 312000000,
+    "cost": 5895.00,
+    "date": "2025-09-09",
+    "project": "Support Routing Engine",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-077",
+    "departmentId": "dept-ops",
+    "model": "text-embedding-3-large",
+    "tokens": 264000000,
+    "cost": 1716.00,
+    "date": "2025-09-16",
+    "project": "Support Routing Engine",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-078",
+    "departmentId": "dept-ops",
+    "model": "GPT-5-mini",
+    "tokens": 288000000,
+    "cost": 5443.20,
+    "date": "2025-10-07",
+    "project": "Support Routing Engine",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-079",
+    "departmentId": "dept-ops",
+    "model": "text-embedding-3-large",
+    "tokens": 296000000,
+    "cost": 1924.00,
+    "date": "2025-10-14",
+    "project": "Support Routing Engine",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-080",
+    "departmentId": "dept-ops",
+    "model": "GPT-5.2",
+    "tokens": 11600000,
+    "cost": 1528.30,
+    "date": "2025-10-28",
+    "project": "Ops Forecasting",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-081",
+    "departmentId": "dept-ops",
+    "model": "GPT-5-mini",
+    "tokens": 334000000,
+    "cost": 6311.00,
+    "date": "2025-11-11",
+    "project": "Support Routing Engine",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-082",
+    "departmentId": "dept-ops",
+    "model": "text-embedding-3-large",
+    "tokens": 340000000,
+    "cost": 2210.00,
+    "date": "2025-11-18",
+    "project": "Support Routing Engine",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-083",
+    "departmentId": "dept-ops",
+    "model": "GPT-5-mini",
+    "tokens": 272000000,
+    "cost": 5140.40,
+    "date": "2025-12-02",
+    "project": "Support Routing Engine",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-084",
+    "departmentId": "dept-ops",
+    "model": "GPT-5.2",
+    "tokens": 8800000,
+    "cost": 1160.00,
+    "date": "2025-12-09",
+    "project": "Ops Forecasting",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-085",
+    "departmentId": "dept-ops",
+    "model": "text-embedding-3-large",
+    "tokens": 384000000,
+    "cost": 2496.00,
+    "date": "2025-12-16",
+    "project": "Support Routing Engine",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-086",
+    "departmentId": "dept-ops",
+    "model": "GPT-5-mini",
+    "tokens": 308000000,
+    "cost": 5819.40,
+    "date": "2026-01-06",
+    "project": "Support Routing Engine",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-087",
+    "departmentId": "dept-ops",
+    "model": "text-embedding-3-large",
+    "tokens": 428000000,
+    "cost": 2782.00,
+    "date": "2026-01-13",
+    "project": "Support Routing Engine",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-088",
+    "departmentId": "dept-ops",
+    "model": "GPT-5.2",
+    "tokens": 14200000,
+    "cost": 1871.50,
+    "date": "2026-01-27",
+    "project": "Ops Forecasting",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-089",
+    "departmentId": "dept-ops",
+    "model": "GPT-5-mini",
+    "tokens": 356000000,
+    "cost": 6727.90,
+    "date": "2026-02-03",
+    "project": "Support Routing Engine",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-090",
+    "departmentId": "dept-ops",
+    "model": "text-embedding-3-large",
+    "tokens": 472000000,
+    "cost": 3068.00,
+    "date": "2026-02-10",
+    "project": "Support Routing Engine",
+    "user": "marcus.johnson"
+  },
+  {
+    "id": "usage-091",
+    "departmentId": "dept-eng",
+    "model": "GPT-5-nano",
+    "tokens": 164000000,
+    "cost": 1230.00,
+    "date": "2025-09-25",
+    "project": "CI/CD Copilot",
+    "user": "ryan.nakamura"
+  },
+  {
+    "id": "usage-092",
+    "departmentId": "dept-res",
+    "model": "GPT-5-nano",
+    "tokens": 152000000,
+    "cost": 1140.00,
+    "date": "2025-10-25",
+    "project": "Synthetic Data Lab",
+    "user": "lisa.zhang"
+  },
+  {
+    "id": "usage-093",
+    "departmentId": "dept-sales",
+    "model": "GPT-5.2",
+    "tokens": 6800000,
+    "cost": 896.30,
+    "date": "2025-11-19",
+    "project": "Deal Intelligence",
+    "user": "james.wilson"
+  },
+  {
+    "id": "usage-094",
+    "departmentId": "dept-eng",
+    "model": "GPT-4.1",
+    "tokens": 3400000,
+    "cost": 774.80,
+    "date": "2025-12-22",
+    "project": "Code Review Agent",
+    "user": "alex.chen"
+  },
+  {
+    "id": "usage-095",
+    "departmentId": "dept-res",
+    "model": "o3",
+    "tokens": 4200000,
+    "cost": 960.00,
+    "date": "2026-01-31",
+    "project": "Model Eval Suite",
+    "user": "david.okafor"
+  },
+  {
+    "id": "usage-096",
+    "departmentId": "dept-ops",
+    "model": "GPT-5.4",
+    "tokens": 2800000,
+    "cost": 1050.00,
+    "date": "2026-02-17",
+    "project": "Ops Forecasting",
+    "user": "elena.rodriguez"
+  },
+  {
+    "id": "usage-097",
+    "departmentId": "dept-fin",
+    "model": "GPT-5.2",
+    "tokens": 5600000,
+    "cost": 737.80,
+    "date": "2025-11-28",
+    "project": "Quarterly Close QA",
+    "user": "catherine.dubois"
+  },
+  {
+    "id": "usage-098",
+    "departmentId": "dept-mkt",
+    "model": "GPT-5-nano",
+    "tokens": 188000000,
+    "cost": 1410.00,
+    "date": "2025-11-24",
+    "project": "Content Generator",
+    "user": "tom.brennan"
+  }
+]

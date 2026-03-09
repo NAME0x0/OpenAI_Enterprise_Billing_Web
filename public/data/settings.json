@@ -1,0 +1,8 @@
+{
+  "quotaThreshold": 85,
+  "alertEmail": "billing-alerts@company.com",
+  "darkMode": true,
+  "currency": "USD",
+  "role": "manager",
+  "dataVersion": 2
+}

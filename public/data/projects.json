@@ -1,0 +1,128 @@
+[
+  {
+    "id": "proj-code-review",
+    "name": "Code Review Agent",
+    "departmentId": "dept-eng",
+    "budget": 22000,
+    "spent": 18640,
+    "status": "active",
+    "createdAt": "2025-08-05"
+  },
+  {
+    "id": "proj-cicd-copilot",
+    "name": "CI/CD Copilot",
+    "departmentId": "dept-eng",
+    "budget": 18000,
+    "spent": 15290,
+    "status": "active",
+    "createdAt": "2025-09-12"
+  },
+  {
+    "id": "proj-incident-bot",
+    "name": "Incident Response Bot",
+    "departmentId": "dept-eng",
+    "budget": 14000,
+    "spent": 11870,
+    "status": "active",
+    "createdAt": "2025-10-01"
+  },
+  {
+    "id": "proj-rag-pipeline",
+    "name": "RAG Pipeline v2",
+    "departmentId": "dept-res",
+    "budget": 20000,
+    "spent": 17940,
+    "status": "active",
+    "createdAt": "2025-08-18"
+  },
+  {
+    "id": "proj-eval-suite",
+    "name": "Model Eval Suite",
+    "departmentId": "dept-res",
+    "budget": 16000,
+    "spent": 13820,
+    "status": "active",
+    "createdAt": "2025-10-03"
+  },
+  {
+    "id": "proj-synth-data",
+    "name": "Synthetic Data Lab",
+    "departmentId": "dept-res",
+    "budget": 14000,
+    "spent": 11460,
+    "status": "active",
+    "createdAt": "2025-11-10"
+  },
+  {
+    "id": "proj-campaign-opt",
+    "name": "Campaign Optimizer",
+    "departmentId": "dept-mkt",
+    "budget": 16000,
+    "spent": 13280,
+    "status": "active",
+    "createdAt": "2025-08-29"
+  },
+  {
+    "id": "proj-content-gen",
+    "name": "Content Generator",
+    "departmentId": "dept-mkt",
+    "budget": 12000,
+    "spent": 9840,
+    "status": "active",
+    "createdAt": "2025-09-15"
+  },
+  {
+    "id": "proj-deal-intel",
+    "name": "Deal Intelligence",
+    "departmentId": "dept-sales",
+    "budget": 18000,
+    "spent": 14720,
+    "status": "active",
+    "createdAt": "2025-09-07"
+  },
+  {
+    "id": "proj-prospect-enrich",
+    "name": "Prospect Enrichment",
+    "departmentId": "dept-sales",
+    "budget": 14000,
+    "spent": 11380,
+    "status": "active",
+    "createdAt": "2025-10-20"
+  },
+  {
+    "id": "proj-quarterly-close",
+    "name": "Quarterly Close QA",
+    "departmentId": "dept-fin",
+    "budget": 13000,
+    "spent": 11140,
+    "status": "active",
+    "createdAt": "2025-09-15"
+  },
+  {
+    "id": "proj-spend-analytics",
+    "name": "Spend Analytics",
+    "departmentId": "dept-fin",
+    "budget": 10000,
+    "spent": 8540,
+    "status": "active",
+    "createdAt": "2025-10-28"
+  },
+  {
+    "id": "proj-support-routing",
+    "name": "Support Routing Engine",
+    "departmentId": "dept-ops",
+    "budget": 20000,
+    "spent": 17060,
+    "status": "active",
+    "createdAt": "2025-09-03"
+  },
+  {
+    "id": "proj-ops-forecast",
+    "name": "Ops Forecasting",
+    "departmentId": "dept-ops",
+    "budget": 15000,
+    "spent": 12480,
+    "status": "active",
+    "createdAt": "2025-11-02"
+  }
+]

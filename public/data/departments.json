@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dept-eng",
+    "name": "Engineering",
+    "budget": 62000,
+    "spent": 50952,
+    "headcount": 86,
+    "costCenter": "ENG-001"
+  },
+  {
+    "id": "dept-res",
+    "name": "Research",
+    "budget": 52000,
+    "spent": 46124,
+    "headcount": 48,
+    "costCenter": "RES-002"
+  },
+  {
+    "id": "dept-mkt",
+    "name": "Marketing",
+    "budget": 42000,
+    "spent": 37986,
+    "headcount": 27,
+    "costCenter": "MKT-003"
+  },
+  {
+    "id": "dept-sales",
+    "name": "Sales",
+    "budget": 48000,
+    "spent": 45222,
+    "headcount": 34,
+    "costCenter": "SAL-004"
+  },
+  {
+    "id": "dept-fin",
+    "name": "Finance",
+    "budget": 22000,
+    "spent": 17362,
+    "headcount": 19,
+    "costCenter": "FIN-005"
+  },
+  {
+    "id": "dept-ops",
+    "name": "Operations",
+    "budget": 58000,
+    "spent": 55143,
+    "headcount": 31,
+    "costCenter": "OPS-006"
+  }
+]

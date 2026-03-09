@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gpt-5-4",
+    "name": "GPT-5.4",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.0025,
+    "costPer1kOutput": 0.015,
+    "contextWindow": 1050000,
+    "status": "active",
+    "description": "Flagship model. Highest reasoning capability, 1M+ context. General availability Feb 2026."
+  },
+  {
+    "id": "gpt-5-2",
+    "name": "GPT-5.2",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.00175,
+    "costPer1kOutput": 0.014,
+    "contextWindow": 400000,
+    "status": "active",
+    "description": "High-performance workhorse. Excellent cost-to-quality for complex enterprise tasks."
+  },
+  {
+    "id": "gpt-5-mini",
+    "name": "GPT-5-mini",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.00025,
+    "costPer1kOutput": 0.002,
+    "contextWindow": 400000,
+    "status": "active",
+    "description": "Fast, affordable. Best fit for content generation, summarization, and high-volume tasks."
+  },
+  {
+    "id": "gpt-5-nano",
+    "name": "GPT-5-nano",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.00005,
+    "costPer1kOutput": 0.0004,
+    "contextWindow": 200000,
+    "status": "active",
+    "description": "Ultra-low-cost model for classification, batch tagging, and simple extraction at scale."
+  },
+  {
+    "id": "gpt-4-1",
+    "name": "GPT-4.1",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.002,
+    "costPer1kOutput": 0.008,
+    "contextWindow": 1000000,
+    "status": "active",
+    "description": "Long-context capable. Strong coding and analytical performance. 1M token window."
+  },
+  {
+    "id": "gpt-4-1-mini",
+    "name": "GPT-4.1-mini",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.0004,
+    "costPer1kOutput": 0.0016,
+    "contextWindow": 1000000,
+    "status": "active",
+    "description": "Efficient long-context model. Ideal for chat assistants and document-grounded QA."
+  },
+  {
+    "id": "o4-mini",
+    "name": "o4-mini",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.0011,
+    "costPer1kOutput": 0.0044,
+    "contextWindow": 200000,
+    "status": "active",
+    "description": "Fast reasoning model. Multi-step problem solving with visible chain-of-thought."
+  },
+  {
+    "id": "o3",
+    "name": "o3",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.002,
+    "costPer1kOutput": 0.008,
+    "contextWindow": 200000,
+    "status": "active",
+    "description": "Advanced reasoning. Highest accuracy on complex math, science, and code tasks."
+  },
+  {
+    "id": "text-embedding-3-large",
+    "name": "text-embedding-3-large",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.00013,
+    "costPer1kOutput": 0,
+    "contextWindow": 8192,
+    "status": "active",
+    "description": "High-dimensional embeddings (3072d). Best retrieval quality for RAG and semantic search."
+  },
+  {
+    "id": "gpt-4o",
+    "name": "GPT-4o",
+    "provider": "OpenAI",
+    "costPer1kInput": 0.0025,
+    "costPer1kOutput": 0.01,
+    "contextWindow": 128000,
+    "status": "deprecated",
+    "description": "Legacy flagship. Deprecated Q1 2026. Migrate to GPT-5.2 or GPT-5-mini."
+  }
+]

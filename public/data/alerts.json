@@ -1,0 +1,99 @@
+[
+  {
+    "id": "alert-001",
+    "type": "quota",
+    "severity": "warning",
+    "title": "Engineering nearing monthly budget limit",
+    "message": "Engineering (ENG-001) has consumed 85.2% of its $85,000 monthly budget. Projected to breach threshold within 6 days at current run rate.",
+    "departmentId": "dept-eng",
+    "createdAt": "2026-02-11T09:14:00Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-002",
+    "type": "quota",
+    "severity": "warning",
+    "title": "Research budget utilization at 88.4%",
+    "message": "Research (RES-002) has spent $54,823 of $62,000. GPT-5.4 pilot and Model Eval Suite are primary drivers. Budget adjustment recommended before month-end.",
+    "departmentId": "dept-res",
+    "createdAt": "2026-02-13T14:05:00Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-003",
+    "type": "rate_limit",
+    "severity": "critical",
+    "title": "GPT-5.4 rate limit breached — Research dept",
+    "message": "API key research-evals-batch (key-003) exceeded the GPT-5.4 tier-2 rate limit of 200 RPM at 03:42 UTC. 847 requests queued and rejected. Model Eval Suite batch job interrupted.",
+    "departmentId": "dept-res",
+    "createdAt": "2026-02-07T03:44:00Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-004",
+    "type": "security",
+    "severity": "critical",
+    "title": "API key accessed from unauthorized IP address",
+    "message": "Key eng-prod-inference (key-001) was used from IP 185.220.101.47 (Tor exit node, AS209322) at 01:18 UTC. This IP is not in the allowlist for ENG-001. Request was blocked. Investigate immediately.",
+    "departmentId": "dept-eng",
+    "createdAt": "2026-02-09T01:20:00Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-005",
+    "type": "anomaly",
+    "severity": "warning",
+    "title": "Abnormal token spike in Operations",
+    "message": "Operations (OPS-006) consumed 472M embedding tokens on 2026-02-10, a 39% increase over the trailing 14-day average. Ops Routing Engine re-indexing job is the likely cause. Verify intentional.",
+    "departmentId": "dept-ops",
+    "createdAt": "2026-02-10T22:30:00Z",
+    "acknowledged": true
+  },
+  {
+    "id": "alert-006",
+    "type": "anomaly",
+    "severity": "warning",
+    "title": "Unusual o4-mini usage pattern in Finance",
+    "message": "Finance (FIN-005) submitted 14 o4-mini batch jobs between 02:00–04:00 UTC on 2026-02-06 — outside of normal business hours. Run-rate for the month is 2.3x the Nov/Dec baseline. Review fin-close-automation key activity.",
+    "departmentId": "dept-fin",
+    "createdAt": "2026-02-06T04:12:00Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-007",
+    "type": "billing",
+    "severity": "info",
+    "title": "January 2026 consolidated invoice ready",
+    "message": "Invoice INV-2026-01 has been finalized. Total: $147,842.60 across all 6 departments. Payment due 2026-02-28. Download available in the Billing section.",
+    "createdAt": "2026-02-01T00:05:00Z",
+    "acknowledged": true
+  },
+  {
+    "id": "alert-008",
+    "type": "billing",
+    "severity": "info",
+    "title": "Budget adjustment applied — Marketing Q1 uplift",
+    "message": "Marketing (MKT-003) budget increased from $32,000 to $38,000 effective 2026-02-01 per Q1 campaign approval (ticket FINOPS-2841). New quota threshold notifications recalculated.",
+    "departmentId": "dept-mkt",
+    "createdAt": "2026-02-01T08:30:00Z",
+    "acknowledged": true
+  },
+  {
+    "id": "alert-009",
+    "type": "security",
+    "severity": "info",
+    "title": "New admin role assignment — marcus.johnson",
+    "message": "User marcus.johnson (Engineering) was granted the org-admin role by admin@company.com at 2026-01-28T10:44Z. This role permits API key management, budget overrides, and audit log access.",
+    "createdAt": "2026-01-28T10:46:00Z",
+    "acknowledged": false
+  },
+  {
+    "id": "alert-010",
+    "type": "info",
+    "severity": "info",
+    "title": "GPT-4o deprecation: migration deadline March 31 2026",
+    "message": "OpenAI will sunset GPT-4o API access on 2026-03-31. Your account has 0 active API keys currently using GPT-4o, but 3 usage records from legacy workloads remain in the last 90 days. Recommended migration target: GPT-5.2 or GPT-5-mini depending on workload.",
+    "createdAt": "2026-02-03T10:00:00Z",
+    "acknowledged": false
+  }
+]
