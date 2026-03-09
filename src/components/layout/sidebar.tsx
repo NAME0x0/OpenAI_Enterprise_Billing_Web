@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useCallback, useRef } from "react";
+import React, { useEffect, useCallback, useRef, type ComponentProps } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -49,52 +49,95 @@ const SIDEBAR_COLLAPSED_WIDTH = 72;
 
 export { SIDEBAR_WIDTH, SIDEBAR_COLLAPSED_WIDTH };
 
-function AnimatedIcon({
-  icon: Icon,
-  size,
-  strokeWidth,
-  isActive,
-}: {
-  icon: LucideIcon;
-  size: number;
-  strokeWidth: number;
-  isActive: boolean;
-}) {
-  const wrapperRef = useRef<HTMLSpanElement>(null);
+function useStrokeDraw() {
+  const ref = useRef<HTMLAnchorElement>(null);
 
   const triggerDraw = useCallback(() => {
-    const svg = wrapperRef.current?.querySelector("svg");
+    const svg = ref.current?.querySelector("svg");
     if (!svg) return;
-    const elements = svg.querySelectorAll<SVGGeometryElement>(
-      "path, line, circle, polyline, polygon, rect, ellipse"
-    );
-    elements.forEach((el) => {
-      if (typeof el.getTotalLength !== "function") return;
-      const len = el.getTotalLength();
-      // Reset to hidden
-      el.style.transition = "none";
-      el.style.strokeDasharray = `${len}`;
-      el.style.strokeDashoffset = `${len}`;
-      // Force reflow
-      void el.getBoundingClientRect();
-      // Animate draw-in
-      el.style.transition = "stroke-dashoffset 0.45s cubic-bezier(0.4, 0, 0.2, 1)";
-      el.style.strokeDashoffset = "0";
+    // Use rAF to ensure the SVG is fully laid out (fixes static export)
+    requestAnimationFrame(() => {
+      const elements = svg.querySelectorAll<SVGGeometryElement>(
+        "path, line, circle, polyline, polygon, rect, ellipse"
+      );
+      elements.forEach((el) => {
+        if (typeof el.getTotalLength !== "function") return;
+        let len: number;
+        try {
+          len = el.getTotalLength();
+        } catch {
+          return;
+        }
+        if (!len || len <= 0) return;
+        el.style.transition = "none";
+        el.style.strokeDasharray = `${len}`;
+        el.style.strokeDashoffset = `${len}`;
+        void el.getBoundingClientRect();
+        el.style.transition = "stroke-dashoffset 0.45s cubic-bezier(0.4, 0, 0.2, 1)";
+        el.style.strokeDashoffset = "0";
+      });
     });
   }, []);
 
+  return { ref, triggerDraw };
+}
+
+function NavItem({
+  item,
+  isActive,
+  collapsed,
+  onNavigate,
+}: {
+  item: (typeof PLATFORM_NAV)[number];
+  isActive: boolean;
+  collapsed: boolean;
+  onNavigate?: () => void;
+}) {
+  const { ref, triggerDraw } = useStrokeDraw();
+  const Icon = item.icon;
+
   return (
-    <span
-      ref={wrapperRef}
-      className="sidebar-icon inline-flex shrink-0"
-      onMouseEnter={triggerDraw}
-    >
-      <Icon
-        size={size}
-        strokeWidth={strokeWidth}
-        style={{ color: isActive ? "var(--accent)" : undefined }}
-      />
-    </span>
+    <div className={collapsed ? "px-2" : "px-3"}>
+      <Link
+        ref={ref as unknown as ComponentProps<typeof Link>["ref"]}
+        href={item.path}
+        onClick={onNavigate}
+        onMouseEnter={triggerDraw}
+        className="sidebar-nav-link group relative flex items-center rounded-lg transition-all duration-150"
+        style={{
+          gap: collapsed ? 0 : 12,
+          padding: collapsed ? "10px 0" : "8px 12px",
+          justifyContent: collapsed ? "center" : "flex-start",
+          background: isActive ? "var(--accent-muted)" : "transparent",
+          color: isActive ? "var(--accent)" : "var(--text-secondary)",
+          fontWeight: isActive ? 500 : 400,
+          fontSize: 13,
+        }}
+        title={collapsed ? item.label : undefined}
+      >
+        <span className="sidebar-icon inline-flex shrink-0">
+          <Icon
+            size={18}
+            strokeWidth={isActive ? 2.2 : 1.8}
+            style={{ color: isActive ? "var(--accent)" : undefined }}
+          />
+        </span>
+        {!collapsed && <span className="truncate">{item.label}</span>}
+        {collapsed && (
+          <div
+            className="pointer-events-none absolute left-full ml-3 whitespace-nowrap rounded-md px-2.5 py-1.5 text-xs font-medium opacity-0 shadow-lg transition-opacity duration-150 group-hover:pointer-events-auto group-hover:opacity-100"
+            style={{
+              background: "var(--bg-elevated)",
+              color: "var(--text-primary)",
+              border: "1px solid var(--border-default)",
+              zIndex: 60,
+            }}
+          >
+            {item.label}
+          </div>
+        )}
+      </Link>
+    </div>
   );
 }
 
@@ -154,51 +197,15 @@ export function Sidebar({ collapsed, onToggle, mobileOpen, onMobileClose }: Side
         </div>
       )}
       {collapsed && <div className="mx-auto my-2 h-px w-6" style={{ background: "var(--border-default)" }} />}
-      {items.map((item) => {
-        const isActive = pathname === item.path;
-        return (
-          <div key={item.path} className={collapsed ? "px-2" : "px-3"}>
-            <Link
-              href={item.path}
-              onClick={() => {
-                if (mobileOpen) onMobileClose();
-              }}
-              className="sidebar-nav-link group relative flex items-center rounded-lg transition-all duration-150"
-              style={{
-                gap: collapsed ? 0 : 12,
-                padding: collapsed ? "10px 0" : "8px 12px",
-                justifyContent: collapsed ? "center" : "flex-start",
-                background: isActive ? "var(--accent-muted)" : "transparent",
-                color: isActive ? "var(--accent)" : "var(--text-secondary)",
-                fontWeight: isActive ? 500 : 400,
-                fontSize: 13,
-              }}
-              title={collapsed ? item.label : undefined}
-            >
-              <AnimatedIcon
-                icon={item.icon}
-                size={18}
-                strokeWidth={isActive ? 2.2 : 1.8}
-                isActive={isActive}
-              />
-              {!collapsed && <span className="truncate">{item.label}</span>}
-              {collapsed && (
-                <div
-                  className="pointer-events-none absolute left-full ml-3 whitespace-nowrap rounded-md px-2.5 py-1.5 text-xs font-medium opacity-0 shadow-lg transition-opacity duration-150 group-hover:pointer-events-auto group-hover:opacity-100"
-                  style={{
-                    background: "var(--bg-elevated)",
-                    color: "var(--text-primary)",
-                    border: "1px solid var(--border-default)",
-                    zIndex: 60,
-                  }}
-                >
-                  {item.label}
-                </div>
-              )}
-            </Link>
-          </div>
-        );
-      })}
+      {items.map((item) => (
+        <NavItem
+          key={item.path}
+          item={item}
+          isActive={pathname === item.path}
+          collapsed={collapsed}
+          onNavigate={mobileOpen ? onMobileClose : undefined}
+        />
+      ))}
     </div>
   );
 
